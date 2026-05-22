@@ -3,26 +3,36 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Psykologpartners - Rapport april 2026</title>
+  <meta name="robots" content="noindex, nofollow">
+  <title>Psykologpartners — Rapport april 2026 | Cyntora</title>
   <link rel="icon" type="image/svg+xml" href="../assets/cyntora-favicon.svg">
   <link rel="apple-touch-icon" href="../assets/cyntora-favicon.svg">
-  <link rel="stylesheet" href="../assets/cyntora-reports.css">
+  <link rel="stylesheet" href="../assets/cyntora-reports-v2.css?v=71e0812c">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;500;600;700&display=swap">
+  <style id="client-theme">:root{ --brass:#699E8D; --brass-soft:rgba(105, 158, 141, 0.12); --bg-cream:#FFFFFF; --bg-cream-soft:#F2F1F0; --bg-dark:#B9D2C0; --bg-dark-soft:#A4BBAA; --ink:#332921; --ink-on-dark:#332921; --ink-muted:#707070; --ink-muted-dark:#5C5950; --border:#CFC9C3; --border-dark:#9DB8A4; --font-display:"Nunito Sans", -apple-system, sans-serif; --font-body:"Nunito Sans", -apple-system, sans-serif; --cover-title:#2D6E59;  }</style>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js" defer></script>
-  <script src="../assets/cyntora-charts.js" defer></script>
-  <script src="../assets/cyntora-reports.js" defer></script>
+  <script src="../assets/cyntora-charts.js?v=3039954c" defer></script>
+  <script src="../assets/cyntora-reports.js?v=8b74aa71" defer></script>
 </head>
 <body>
 
 <nav class="report-nav" data-section-nav>
   <div class="report-nav__inner">
-    <div class="report-nav__group">
-      <label for="section-jump">Sektion:</label>
-      <select id="section-jump" data-section-jump>
-        <option value="">Översikt</option>
-      </select>
+    <div class="report-nav__brand">
+      <img src="../assets/cyntora-logo.svg" alt="Cyntora">
+      <div class="divider"></div>
+      <div class="label">Psykologpartners</div>
     </div>
-    <div class="report-nav__group">
-      <label for="period">Period:</label>
+    <div class="report-nav__links" data-section-links></div>
+    <div class="report-nav__dropdown" data-section-dropdown-wrap>
+      <label for="section-jump">Sektion</label>
+      <select id="section-jump" data-section-jump></select>
+    </div>
+    <div class="report-nav__period">
+      <label for="period">Period</label>
       <select id="period" data-period-switcher data-current="2026-04" data-index-url="index.json" disabled>
         <option value="2026-04.html" selected>April 2026</option>
       </select>
@@ -31,35 +41,37 @@
 </nav>
 
 
-<section class="page cover">
-  <img class="logo" src="../assets/cyntora-logo.svg" alt="Cyntora">
-  <h1>Psykologpartners - Detaljerad statistik</h1>
-  <p class="month">April 2026</p>
-
-
-  <div class="footer">
-<div class="property">Psykologpartners - GA4</div>  </div>
+<section class="cover" id="cover">
+  <div class="cover__top">
+    <img src="../assets/cyntora-logo.svg" alt="Cyntora">
+    <div class="meta">
+      April 2026
+· Detaljerad statistik    </div>
+  </div>
+  <div class="cover__center">
+    <div class="cover__eyebrow">Cyntora månadsrapport</div>
+    <h1>Psykologpartners</h1>
+      <p class="cover__kicker">GA4-trafiken visar en nedgång på 52 % jämfört med april 2025 och siffran bör tolkas med viss försiktighet eftersom mätbaslinjen verifieras.</p>
+<p class="cover__kicker">Antalet konverteringar ökade däremot med 9,4 % till 278 under månaden, och engagement rate låg på 84 %. I Google Search Console syns en tydlig förbättring: snittpositionen gick från cirka 18 till 10,4 jämfört med samma månad förra året.</p>  </div>
+  <div class="cover__bottom">
+    <div class="col">
+      <div class="label">Period</div>
+      <div class="val">April 2026</div>
+    </div>
+    <div class="col">
+      <div class="label">Datakällor</div>
+      <div class="val">GA4, GSC, Google Ads</div>
+    </div>
+    <div class="col">
+      <div class="label">Levererat av</div>
+      <div class="val">Cyntora</div>
+    </div>
+  </div>
 </section>
-<section class="page">
-<div class="page-header">
-  <img class="logo" src="../assets/cyntora-logo.svg" alt="Cyntora">
-  <div class="meta">
-    <div class="client">Psykologpartners</div>
-    <div>April 2026</div>
-  </div>
-</div><div class="summary-block">
-  <h2>Sammanfattning av månaden</h2>
-  <p>GA4-trafiken visar en nedgång på 52 % jämfört med april 2025 och siffran bör tolkas med viss försiktighet eftersom mätbaslinjen verifieras. Antalet konverteringar ökade däremot med 9,4 % till 278 under månaden, och engagement rate låg på 84 %. I Google Search Console syns en tydlig förbättring: snittpositionen gick från cirka 18 till 10,4 jämfört med samma månad förra året.</p>
-</div></section>
 
-<section class="page">
-<div class="page-header">
-  <img class="logo" src="../assets/cyntora-logo.svg" alt="Cyntora">
-  <div class="meta">
-    <div class="client">Psykologpartners</div>
-    <div>April 2026</div>
-  </div>
-</div>  <div class="section" id="section-ga4_overview" data-section-id="ga4_overview" data-section-title="Google Analytics 4">
+<section class="page page--paper">
+  <div class="wrap">
+    <div class="section" id="section-ga4_overview" data-section-id="ga4_overview" data-section-title="Google Analytics 4">
   <div class="section-title">
 <img class="section-title__icon" src="../assets/icons/ga4.svg" alt="">    <span>Google Analytics 4</span>
   </div>
@@ -148,10 +160,11 @@
   <div class="chart-card__head">
     <span>New Users</span>
     <span class="right">
-<span class="value">0</span>    </span>
+<span class="value">2 179</span>        <span class="trend trend--down">48%</span>
+    </span>
   </div>
   <div class="chart-wrap chart-wrap--short">
-    <canvas id="ga4-new-users-4" data-cyntora='{"format": "number", "integer": true, "kind": "line", "labels": ["1 Apr", "2 Apr", "3 Apr", "4 Apr", "5 Apr", "6 Apr", "7 Apr", "8 Apr", "9 Apr", "10 Apr", "11 Apr", "12 Apr", "13 Apr", "14 Apr", "15 Apr", "16 Apr", "17 Apr", "18 Apr", "19 Apr", "20 Apr", "21 Apr", "22 Apr", "23 Apr", "24 Apr", "25 Apr", "26 Apr", "27 Apr", "28 Apr", "29 Apr", "30 Apr"], "series": [{"color": "#1f4e4a", "label": "April 2026", "values": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}, {"color": "#b9d2cf", "label": "April 2025", "values": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}]}'></canvas>
+    <canvas id="ga4-new-users-4" data-cyntora='{"format": "number", "integer": true, "kind": "line", "labels": ["1 Apr", "2 Apr", "3 Apr", "4 Apr", "5 Apr", "6 Apr", "7 Apr", "8 Apr", "9 Apr", "10 Apr", "11 Apr", "12 Apr", "13 Apr", "14 Apr", "15 Apr", "16 Apr", "17 Apr", "18 Apr", "19 Apr", "20 Apr", "21 Apr", "22 Apr", "23 Apr", "24 Apr", "25 Apr", "26 Apr", "27 Apr", "28 Apr", "29 Apr", "30 Apr"], "series": [{"color": "#1f4e4a", "label": "April 2026", "values": [96, 71, 31, 32, 43, 46, 82, 105, 95, 64, 34, 56, 75, 120, 91, 103, 95, 45, 45, 76, 99, 87, 116, 81, 39, 45, 83, 83, 84, 57]}, {"color": "#b9d2cf", "label": "April 2025", "values": [217, 180, 203, 142, 83, 72, 190, 206, 213, 187, 154, 61, 91, 140, 184, 164, 96, 61, 49, 60, 62, 188, 193, 189, 165, 48, 61, 176, 188, 131]}]}'></canvas>
   </div>
 </div><div class="chart-card">
   <div class="chart-card__head">
@@ -216,7 +229,7 @@
 </div>
 <div class="band">Pages</div>
 <div class="data-table-wrap">
-<div class="head">Visar 10 av 23 sidor</div>  <table class="data-table">
+<div class="head">Visar 10 av 24 sidor</div>  <table class="data-table">
     <thead>
       <tr>
         <th>SIDA</th>
@@ -415,15 +428,11 @@
   <p class="takeaway__body">Trafiken landade på 2 470 användare (-51,6 % jämfört med samma månad förra året) med 3 560 sessioner (-54,0 % jämfört med samma månad förra året). Strukturella mätvärden: Bounce Rate på 15,7 % och engagement rate på 84,3 %. GA4 registrerade 278 konverteringar i månaden.</p>
 </div>
 </div>
+  </div>
 </section>
 <section class="page">
-<div class="page-header">
-  <img class="logo" src="../assets/cyntora-logo.svg" alt="Cyntora">
-  <div class="meta">
-    <div class="client">Psykologpartners</div>
-    <div>April 2026</div>
-  </div>
-</div>  <div class="section" id="section-gsc" data-section-id="gsc" data-section-title="Google Search Console">
+  <div class="wrap">
+    <div class="section" id="section-gsc" data-section-id="gsc" data-section-title="Google Search Console">
   <div class="section-title">
 <img class="section-title__icon" src="../assets/icons/gsc.svg" alt="">    <span>Google Search Console</span>
   </div>
@@ -514,6 +523,21 @@
           </td>
       </tr>
       <tr>
+        <td>psykolog göteborg</td>
+          <td>
+            10
+          </td>
+          <td>
+            1 166
+          </td>
+          <td>
+            14.21
+          </td>
+          <td>
+            0.86%
+          </td>
+      </tr>
+      <tr>
         <td>pbs</td>
           <td>
             32
@@ -526,6 +550,21 @@
           </td>
           <td>
             2.97%
+          </td>
+      </tr>
+      <tr>
+        <td>act terapi</td>
+          <td>
+            5
+          </td>
+          <td>
+            994
+          </td>
+          <td>
+            10.15
+          </td>
+          <td>
+            0.50%
           </td>
       </tr>
       <tr>
@@ -544,6 +583,36 @@
           </td>
       </tr>
       <tr>
+        <td>psykolog malmö</td>
+          <td>
+            5
+          </td>
+          <td>
+            670
+          </td>
+          <td>
+            12.94
+          </td>
+          <td>
+            0.75%
+          </td>
+      </tr>
+      <tr>
+        <td>compassionfokuserad terapi</td>
+          <td>
+            5
+          </td>
+          <td>
+            613
+          </td>
+          <td>
+            5.60
+          </td>
+          <td>
+            0.82%
+          </td>
+      </tr>
+      <tr>
         <td>psykolog umeå</td>
           <td>
             14
@@ -558,66 +627,6 @@
             2.29%
           </td>
       </tr>
-      <tr>
-        <td>psykolog linköping</td>
-          <td>
-            59
-          </td>
-          <td>
-            601
-          </td>
-          <td>
-            4.02
-          </td>
-          <td>
-            9.82%
-          </td>
-      </tr>
-      <tr>
-        <td>psykologpartners</td>
-          <td>
-            382
-          </td>
-          <td>
-            556
-          </td>
-          <td>
-            1.98
-          </td>
-          <td>
-            68.71%
-          </td>
-      </tr>
-      <tr>
-        <td>cft</td>
-          <td>
-            19
-          </td>
-          <td>
-            489
-          </td>
-          <td>
-            2.35
-          </td>
-          <td>
-            3.89%
-          </td>
-      </tr>
-      <tr>
-        <td>psykolog norrköping</td>
-          <td>
-            22
-          </td>
-          <td>
-            390
-          </td>
-          <td>
-            5.44
-          </td>
-          <td>
-            5.64%
-          </td>
-      </tr>
     </tbody>
   </table>
 </div>
@@ -628,21 +637,17 @@
   <p class="takeaway__body">Sökresultaten gav 4 450 klick (-19,7 % jämfört med samma månad förra året) på 148 099 visningar (-12,0 % jämfört med samma månad förra året). Genomsnittspositionen i Google Sök ligger på 10,4 under perioden.</p>
 </div>
 </div>
-</section>
-<section class="page">
-<div class="page-header">
-  <img class="logo" src="../assets/cyntora-logo.svg" alt="Cyntora">
-  <div class="meta">
-    <div class="client">Psykologpartners</div>
-    <div>April 2026</div>
   </div>
-</div>  <div class="section" id="section-google_ads" data-section-id="google_ads" data-section-title="Google Ads">
+</section>
+<section class="page page--paper">
+  <div class="wrap">
+    <div class="section" id="section-google_ads" data-section-id="google_ads" data-section-title="Google Ads">
   <div class="section-title">
 <img class="section-title__icon" src="../assets/icons/google-ads.svg" alt="">    <span>Google Ads</span>
   </div>
 
 
-    <div class="band">SEM</div><div class="source-attr">Spårat konverteringsvärde är baserat på konverteringshändelser konfigurerade i Google Ads-kontot. Använd Konverteringar och Kostnad som primära indikatorer.</div>
+    <div class="band">SEM</div>
 <div class="card-grid"><div class="card">
   <div class="card__head">
     <div class="label">
@@ -650,20 +655,6 @@
     </div>
   </div>
     <div class="card__value card__value--big">7</div>
-</div><div class="card">
-  <div class="card__head">
-    <div class="label">
-<img src="../assets/icons/google-ads.svg" alt="">      Spårat konv.värde
-    </div>
-  </div>
-    <div class="card__value card__value--big">5,00 kr</div>
-</div><div class="card">
-  <div class="card__head">
-    <div class="label">
-<img src="../assets/icons/google-ads.svg" alt="">      Spårad ROAS
-    </div>
-  </div>
-    <div class="card__value card__value--big">0.00</div>
 </div><div class="card">
   <div class="card__head">
     <div class="label">
@@ -695,12 +686,12 @@
 </div></div>
 <div class="chart-card">
   <div class="chart-card__head">
-    <span>Kostnad vs spårat konv.värde</span>
+    <span>Kostnad per dag</span>
     <span class="right">
     </span>
   </div>
   <div class="chart-wrap">
-    <canvas id="ads-spend-8" data-cyntora='{"currency": "SEK", "dual_axis": true, "format": "currency", "kind": "line", "labels": ["1 Apr", "2 Apr", "3 Apr", "4 Apr", "5 Apr", "6 Apr", "7 Apr", "8 Apr", "9 Apr", "10 Apr", "11 Apr", "12 Apr", "13 Apr", "14 Apr", "15 Apr", "16 Apr", "17 Apr", "18 Apr", "19 Apr", "20 Apr", "21 Apr", "22 Apr", "23 Apr", "24 Apr", "25 Apr", "26 Apr", "27 Apr", "28 Apr", "29 Apr", "30 Apr"], "series": [{"color": "#1f4e4a", "currency": "SEK", "format": "currency", "label": "Kostnad", "values": [216.81, 59.53, 31.8, 69.23, 191.31, 281.99, 250.94, 217.51, 270.23, 151.9, 134.64, 117.75, 245.2, 164.78, 149.36, 149.84, 96.56, 18.36, 212.89, 188.84, 173.63, 222.44, 125.75, 210.17, 126.22, 182.72, 225.34, 155.15, 114.09, 108.46]}, {"color": "#b9d2cf", "currency": "SEK", "format": "currency", "label": "Sp\u00e5rat konv.v\u00e4rde", "values": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 4.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]}]}'></canvas>
+    <canvas id="ads-spend-8" data-cyntora='{"currency": "SEK", "format": "currency", "kind": "line", "labels": ["1 Apr", "2 Apr", "3 Apr", "4 Apr", "5 Apr", "6 Apr", "7 Apr", "8 Apr", "9 Apr", "10 Apr", "11 Apr", "12 Apr", "13 Apr", "14 Apr", "15 Apr", "16 Apr", "17 Apr", "18 Apr", "19 Apr", "20 Apr", "21 Apr", "22 Apr", "23 Apr", "24 Apr", "25 Apr", "26 Apr", "27 Apr", "28 Apr", "29 Apr", "30 Apr"], "series": [{"color": "#1f4e4a", "currency": "SEK", "format": "currency", "label": "Kostnad", "values": [216.81, 59.53, 31.8, 69.23, 191.31, 281.99, 250.94, 217.51, 270.23, 151.9, 134.64, 117.75, 245.2, 164.78, 149.36, 149.84, 96.56, 18.36, 212.89, 188.84, 173.63, 222.44, 125.75, 210.17, 126.22, 182.72, 225.34, 155.15, 114.09, 108.46]}]}'></canvas>
   </div>
 </div>
 <div class="band">Top Campaigns</div>
@@ -709,7 +700,7 @@
     <thead>
       <tr>
         <th>KAMPANJ</th>
-<th>KOSTNAD</th><th>KONVERTERINGAR</th><th>SPÅRAT KONV.VÄRDE</th><th>ROAS</th><th>EXPONERINGAR</th><th>KLICK</th>      </tr>
+<th>KOSTNAD</th><th>KONVERTERINGAR</th><th>EXPONERINGAR</th><th>KLICK</th>      </tr>
     </thead>
     <tbody>
       <tr>
@@ -719,12 +710,6 @@
           </td>
           <td>
             3
-          </td>
-          <td>
-            2,00 kr
-          </td>
-          <td>
-            0,00
           </td>
           <td>
             1 733
@@ -740,12 +725,6 @@
           </td>
           <td>
             4
-          </td>
-          <td>
-            3,00 kr
-          </td>
-          <td>
-            0,00
           </td>
           <td>
             2 188
@@ -764,31 +743,23 @@
   <p class="takeaway__body">Annonsbudgeten landade på 4 863 SEK och drev 344 klick till en CTR om 8,8 %. Spårade konverteringar: 7,0 till ett spårat konverteringsvärde om 5 SEK, ROAS 0,00. Det spårade konverteringsvärdet kan överlappa med commerce-blockets faktiska försäljning, så de två siffrorna kan inte summeras.</p>
 </div>
 </div>
+  </div>
 </section>
 
-<section class="page">
-<div class="page-header">
-  <img class="logo" src="../assets/cyntora-logo.svg" alt="Cyntora">
-  <div class="meta">
-    <div class="client">Psykologpartners</div>
-    <div>April 2026</div>
+<section class="page page--dark" id="section-next-steps" data-section-id="next-steps" data-section-title="Vad vi gör härnäst">
+  <div class="wrap">
+    <div class="eyebrow">Vad händer härnäst</div>
+    <div class="next-steps">
+      <h2>Vad vi gör härnäst</h2>
+      <ul>
+<li>Vi kommer att verifiera trafikmätningen i GA4 så att kommande rapporter vilar på en stabil baslinje.</li><li>Vi kommer att se över hur konverteringsvärdet i Google Ads speglar faktiska bokningar och formulärsvar.</li><li>Vi kommer att analysera de organiska sökord där positionen förbättrats och identifiera sidor som kan optimeras ytterligare för att öka CTR.</li><li>Vi kommer att följa upp sökordet 'ibis' som genererade 52 klick från 3 597 visningar (CTR 1,4 %) och se om landningssidan kan stärkas för att ta hem fler klick.</li>      </ul>
+    </div>
+    <div class="next-steps next-steps--external">
+      <h2>Detta behöver vi från er</h2>
+      <ul>
+<li>Verifiera Google Ads Enhanced Conversions och konverteringsvärdet - det spårade konverteringsvärdet matchar inte faktiska intäkter (7 konv för 4 863 kr).</li>      </ul>
+    </div>
   </div>
-</div><div class="next-steps">
-  <h2>Vad vi gör härnäst</h2>
-  <ul>
-      <li>Vi kommer att verifiera trafikmätningen i GA4 så att kommande rapporter vilar på en stabil baslinje.</li>
-      <li>Vi kommer att se över hur konverteringsvärdet i Google Ads speglar faktiska bokningar och formulärsvar.</li>
-      <li>Vi kommer att analysera de organiska sökord där positionen förbättrats och identifiera sidor som kan optimeras ytterligare för att öka CTR.</li>
-      <li>Vi kommer att följa upp sökordet 'ibis' som genererade 52 klick från 3 597 visningar (CTR 1,4 %) och se om landningssidan kan stärkas för att ta hem fler klick.</li>
-  </ul>
-</div>
-
-<div class="next-steps next-steps--external">
-  <h2>Detta behöver vi från er</h2>
-  <ul>
-      <li>Verifiera Google Ads Enhanced Conversions och konverteringsvärdet - det spårade konverteringsvärdet matchar inte faktiska intäkter (7 konv för 4 863 kr).</li>
-  </ul>
-</div>
 </section>
 
 
